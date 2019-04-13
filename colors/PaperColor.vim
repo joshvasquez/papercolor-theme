@@ -1199,7 +1199,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi Float' . s:fg_orange
 
   exec 'hi Identifier' . s:fg_navy
-  exec 'hi Function' . s:fg_foreground
+  exec 'hi Function' . s:fg_foreground . s:ft_italic
 
   exec 'hi Statement' . s:fg_pink . s:ft_none
   exec 'hi Conditional' . s:fg_purple . s:ft_bold
