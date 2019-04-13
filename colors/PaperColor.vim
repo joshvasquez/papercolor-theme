@@ -1590,7 +1590,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi javaScriptBraces' . s:fg_blue
   exec 'hi javaScriptParens' . s:fg_blue
   exec 'hi javaScriptIdentifier' . s:fg_pink
-  exec 'hi javaScriptFunction' . s:fg_blue . s:ft_bold
+  exec 'hi javaScriptFunction' . s:fg_blue . s:ft_italic_bold
   exec 'hi javaScriptConditional' . s:fg_purple . s:ft_bold
   exec 'hi javaScriptRepeat' . s:fg_purple . s:ft_bold
   exec 'hi javaScriptBoolean' . s:fg_green . s:ft_bold
